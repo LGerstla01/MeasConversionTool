@@ -1,0 +1,131 @@
+
+
+2024-06-21 09:12:12
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 493.39it/s]
+Traceback (most recent call last):
+  File "c:\Users\gel3abt\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_vars.py", line 624, in change_attr_expression
+    value = eval(expression, frame.f_globals, frame.f_locals)
+  File "<string>", line 1
+    time  VehV_v0         0.0     0.01         0.1     0.02         0.2     0.03         0.3     0.04         0.4     0.0...       ...     ...18972  1897.2     0.018973  1897.3     0.018974  1897.4     0.018975  1897.5     0.018976  1897.6     0.0[18977 rows x 2 columns]
+          ^
+SyntaxError: invalid syntax
+
+2024-06-21 09:27:40
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 499.92it/s]
+2024-06-21 09:28:48
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 998.88it/s]
+
+2024-06-21 09:29:16
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 200.00it/s]
+
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 250.06it/s]
+
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 200.03it/s]
+
+2024-06-21 10:03:49
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 997.22it/s]
+
+2024-06-21 10:03:49
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+
+2024-06-21 10:03:50
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+
+2024-06-21 10:04:09
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 997.69it/s]
+
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+
+2024-06-21 10:04:10
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+
+2024-06-21 10:04:12
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 999.12it/s]
+
+  0%|                                                                                                                                                                     | 0/1 [00:00<?, ?it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s]
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "c:\Users\gel3abt\Documents\PreMaster\PS-EC_EBC2\GUI_MF4_To_Excel\meas_conversion_tool.py", line 463, in check_double_label
+    self.signals_text.get("1.0", text)
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 3711, in get
+    return self.tk.call(self._w, 'get', index1, index2)
+_tkinter.TclError: bad text index "VehV_v"
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "c:\Users\gel3abt\Documents\PreMaster\PS-EC_EBC2\GUI_MF4_To_Excel\meas_conversion_tool.py", line 463, in check_double_label
+    self.signals_text.get("1.0", text)
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 3711, in get
+    return self.tk.call(self._w, 'get', index1, index2)
+_tkinter.TclError: bad text index ""
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "c:\Users\gel3abt\Documents\PreMaster\PS-EC_EBC2\GUI_MF4_To_Excel\meas_conversion_tool.py", line 463, in check_double_label
+    self.signals_text.get("1.0", text)
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 3711, in get
+    return self.tk.call(self._w, 'get', index1, index2)
+_tkinter.TclError: bad text index ""
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "c:\Users\gel3abt\Documents\PreMaster\PS-EC_EBC2\GUI_MF4_To_Excel\meas_conversion_tool.py", line 463, in check_double_label
+    self.signals_text.get("1.0", text)
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 3711, in get
+    return self.tk.call(self._w, 'get', index1, index2)
+_tkinter.TclError: bad text index ""
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "c:\Users\gel3abt\Documents\PreMaster\PS-EC_EBC2\GUI_MF4_To_Excel\meas_conversion_tool.py", line 463, in check_double_label
+    self.signals_text.get("1.0", text)
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 3711, in get
+    return self.tk.call(self._w, 'get', index1, index2)
+_tkinter.TclError: bad text index "VehV_v"
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "c:\Users\gel3abt\Documents\PreMaster\PS-EC_EBC2\GUI_MF4_To_Excel\meas_conversion_tool.py", line 463, in check_double_label
+    self.signals_text.get("1.0", text)
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 3711, in get
+    return self.tk.call(self._w, 'get', index1, index2)
+_tkinter.TclError: bad text index ""
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "c:\Users\gel3abt\Documents\PreMaster\PS-EC_EBC2\GUI_MF4_To_Excel\meas_conversion_tool.py", line 463, in check_double_label
+    self.signals_text.get("1.0", text)
+  File "C:\Users\gel3abt\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 3711, in get
+    return self.tk.call(self._w, 'get', index1, index2)
+_tkinter.TclError: bad text index ""

@@ -1,0 +1,22 @@
+{
+    "Default": {
+        "name": "Default",
+        "labels": [
+            "VehV_v"
+        ]
+    },
+    "P3": {
+        "name": "P3",
+        "labels": [
+            "TrbCh_rAct",
+            "ASMod_dmExhMnfDs",
+            "Epm_nEng",
+            "ASMod_tExhMnfDs",
+            "ExhMod_pTrbnDs_r32",
+            "EnvP_p",
+            "P_31",
+            "AirMod_PExhMnfld",
+            "InjCtl_qSetUnBal"
+        ]
+    }
+}

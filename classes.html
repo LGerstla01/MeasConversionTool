@@ -1,0 +1,74 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      <div class="mermaid">
+    
+        classDiagram
+          class MeasurementGUI {
+            all_profiles
+            excel_checkbox_var : IntVar
+            export_all_checkbutton_var : IntVar
+            export_button : Button
+            matlab_checkbox_var : IntVar
+            meas_path : list
+            measurement_path_text : Text
+            output_browse_button : Button
+            output_files
+            output_path_entry : Entry
+            output_paths : list
+            profile : StringVar
+            profile_dropdown : Combobox
+            profile_names
+            raster_var : DoubleVar
+            same_path_checkbox_var : IntVar
+            state_label : Label
+            all_label_checkbox_change()
+            browse_measurement_path()
+            browse_output_path()
+            check_enable_export_button(event)
+            checkbox_on_change()
+            delete_temp_files()
+            event_measurement_path(event)
+            extract_profile_names(profiles: list) list
+            extract_signal_labels(measurement: str) list
+            open_edit_profile_window()
+            open_new_profile_window()
+            same_path_checkbox_change()
+            signals_to_dataframe(meas: str) DataFrame
+            start_export()
+            update_outpath(event)
+            update_profiles_dropdown(option: str)
+            update_state_label(input_text: str)
+          }
+          class ProfileEdit {
+            delete_button : Button
+            old_name : str
+            delete_data()
+            save_data()
+          }
+          class ProfileNew {
+            instance : NoneType
+            labels
+            listbox : Listbox
+            marking_labels : list
+            name_entry : Entry
+            save_button : Button
+            search_entry : Entry
+            signals_text : Text
+            title_label : Label
+            width : int
+            destroy()
+            enable_safe_button(event)
+            get_non_common_items(lists: list) list
+            load_signals_from_meas()
+            mark_labels(event)
+            mark_profile_labels(marking_profile: str, marking_labels: list, invert: bool)
+            save_data()
+            search_label(event)
+            select_label(event)
+          }
+          ProfileEdit --|> ProfileNew
+  
+       </div>
+  </body>
+</html>
