@@ -1,6 +1,12 @@
 """meas_conversion_tool.py
 
    Converts measurement lables to Excel or Matlab files with a selected raster
+   
+   @file meas_conversion_tool.py
+   @author Lukas Gerstlauer
+   @email lukas.gerstlauer@de.bosch.com
+   @date 21.06.24
+   @version 1.0
 """
 
 import tkinter as tk

@@ -1,6 +1,12 @@
 """profile_manager.py
 
    Manages the profile handling between the json file and the GUI
+   
+   @file profile_manager.py
+   @author Lukas Gerstlauer
+   @email lukas.gerstlauer@de.bosch.com
+   @date 21.06.24
+   @version 1.0
 """
 
 import json
