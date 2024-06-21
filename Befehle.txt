@@ -1,0 +1,8 @@
+ai_utils\scripts\activate
+cd C:\Users\gel3abt\Documents\PreMaster\PS-EC_EBC2\GUI_MF4_To_Excel
+pyinstaller --onefile --noconsole meas_conversion_tool.py
+pyreverse -o png -p meas_conversion_tool.py -a
+pyreverse -o html meas_conversion_tool.py
+
+git config --global user.email "lukas.gerstlauer@mail.de"
+git config --global user.name "Lukas Gerstlauer"
