@@ -3,7 +3,6 @@
    Converts measurement lables to Excel or Matlab files with a selected raster
 """
 
-from sqlite3 import Time
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import ttk
