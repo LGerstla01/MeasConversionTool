@@ -95,7 +95,7 @@ class MeasurementGUI(tk.Tk):
         new_profile_button.grid(row=3, column=5, padx=5, pady=5)
 
         self.export_all_checkbutton_var = tk.IntVar()
-        export_all_checkbutton = ttk.Checkbutton(self, text="Export all Labels in Measurement (Takes a long time (> 5 min)!)", variable=self.export_all_checkbutton_var, command=self.all_label_checkbox_change)
+        export_all_checkbutton = ttk.Checkbutton(self, text="Export all Labels in Measurement (Takes a long time > 5 min!)", variable=self.export_all_checkbutton_var, command=self.all_label_checkbox_change)
         export_all_checkbutton.grid(row=4, column=2, sticky="wn", padx=5, pady=(5, 20))
 
         output_path_label = tk.Label(self, text="Output Path", justify="left")
