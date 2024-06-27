@@ -405,9 +405,10 @@ class ProfileNew(tk.Toplevel):
 
         self.update_idletasks()
         self.width = 570
+        self.height = 600
         x = self.winfo_x() + (self.winfo_width() - self.winfo_reqwidth()) / 2
         y = self.winfo_y() + (self.winfo_height() - self.winfo_reqheight()) / 2
-        self.geometry("%dx600+%d+%d" % (self.width, x/2, y/2))
+        self.geometry("%dx%d+%d+%d" % (self.width, self.heigth, x/2, y/2))
         self.transient(root)
 
         self.grid_columnconfigure(2, weight=1)
@@ -503,7 +504,7 @@ class ProfileNew(tk.Toplevel):
         """Opens the left part of the window to select the labels present in the measurement
         """
         if app.meas_path:
-            self.geometry("%dx600" % (self.width*2))
+            self.geometry("%dx%d" % (self.width*2, self.height))
             self.grid_columnconfigure(0, weight=4)
             
             self.title_label.grid(row=0, column=0, columnspan=7, padx=5, pady=5)
