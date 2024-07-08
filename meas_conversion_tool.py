@@ -43,7 +43,6 @@ class MeasurementGUI(tk.Tk):
         self.all_profiles = profile_manager.load_profiles()
         self.profile_names = self.extract_profile_names(self.all_profiles)
         self.output_paths = [""]
-        self.output_paths = []
 
         try:
             icon = Image.open(ICON_PATH)
@@ -191,7 +190,10 @@ class MeasurementGUI(tk.Tk):
             event (_type_): unused
         """
         if self.same_path_checkbox_var.get() == 1:
-            self.output_paths = [os.path.dirname(path) for path in profile_manager.str_2_list(self.measurement_path_text.get("1.0", "end-1c"))]
+            if len(profile_manager.str_2_list(self.measurement_path_text.get("1.0", "end-1c"))) > 0:
+                self.output_paths = [os.path.dirname(path) for path in profile_manager.str_2_list(self.measurement_path_text.get("1.0", "end-1c"))]
+            else:
+                self.output_paths = [""]
             self.output_path_entry.config(state="normal")
             self.output_path_entry.delete(0, tk.END)
             self.output_path_entry.insert(0, self.output_paths[0])
